@@ -9,3 +9,6 @@ Requirements
 Ensure all necessary tools are installed and environment variables are correctly set to utilize Grunge in your projects.
 
 To perform a complete installation of the Grunge project, run the provided batch script. This script automates the setup process, including Meson configuration and necessary dependencies, ensuring a smooth installation experience.
+
+
+> ideal-broccoli <
