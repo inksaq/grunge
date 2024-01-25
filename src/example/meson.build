@@ -12,7 +12,7 @@ endif
 
 executable(
     'Example',
-    dependencies: core_dep,
+    dependencies: grunge_dep,
     include_directories : '.',
     sources: files('./main.cpp'),
     cpp_args : cpp_args,

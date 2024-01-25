@@ -4,7 +4,7 @@ project(
   'cpp',
   default_options: [
     'cpp_std=c++20',
-    'prefix=' + '/' +  meson.source_root() + '/'
+    'prefix=' + meson.source_root() + '/'
     ],
   version: '0.0.1'
   )

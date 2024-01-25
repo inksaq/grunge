@@ -28,7 +28,7 @@ grunge_lib = library(
 )
 
 grunge_dep = declare_dependency(
-    link_with: core_lib, 
+    link_with: grunge_lib, 
     include_directories: dep_inc,
     dependencies: dependencies
 )
