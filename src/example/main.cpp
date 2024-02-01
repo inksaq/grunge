@@ -123,9 +123,10 @@ int main(int cargs, char** vargs)
         ImGui::NewFrame();
 
 
-
+        ImGui::ShowDemoWindow();
         // Rendering
         ImGui::Render();
+        
         int display_w, display_h;
         glfwGetFramebufferSize(window, &display_w, &display_h);
         glViewport(0, 0, display_w, display_h);
