@@ -12,6 +12,7 @@ dependencies = [
     gleq_dep,
     glew_dep,
     imgui_dep,
+    clay_dep,
     stb_dep
 ]
 

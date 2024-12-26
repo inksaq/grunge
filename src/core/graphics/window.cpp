@@ -59,6 +59,11 @@ namespace core::graphics{
         ImGui_ImplOpenGL3_Init(m_glsl_version);
         m_initialized_backends = true;
     }
+
+    void Window::create_clay_context() {
+        create_opengl_context();
+        init_glew();
+    }
     
     void Window::create_context(){
         create_opengl_context();

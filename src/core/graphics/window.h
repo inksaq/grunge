@@ -28,6 +28,7 @@ namespace core::graphics{
         void create_imgui_context();
         void init_backends();
         void create_context();
+        void create_clay_context();
 
         void shutdown_backends();
         void destroy_imgui_context();

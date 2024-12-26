@@ -21,7 +21,8 @@ gleq_dep = dependency('gleq', required: true)
 glew_dep = dependency('glew', required: true)
 fmt_dep = dependency('fmt', required: true)
 glm_dep = dependency('glm', required: true)
-imgui_dep = dependency('imgui', required: true) 
+imgui_dep = dependency('imgui', required: true)
+clay_dep = dependency('clay', required: true)
 
 threads_dep = dependency('threads',   static : true)
 
